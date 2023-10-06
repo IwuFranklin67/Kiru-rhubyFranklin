@@ -9,7 +9,6 @@
 
   .header {
     padding: 2.4rem;
-    margin-bottom: 4.8rem;
   }
 
   .logo {
@@ -111,7 +110,12 @@
   }
 
   .heading-secondary {
-    font-size: 4rem;
+    font-size: 3.4rem;
+  }
+
+  .hero-text-box {
+    padding-top: 0;
+    margin-bottom: 8rem;
   }
 
   .feature-item {
@@ -267,12 +271,12 @@
   }
 
   .footer-heading {
-    font-size: 2rem;
-    margin-bottom: 6.4rem;
+    font-size: 1.8rem;
+    margin-bottom: 4.8rem;
   }
 
   .contacts {
-    font-size: 3.2rem;
+    font-size: 2rem;
   }
 
   .contacts-box {

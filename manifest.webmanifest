@@ -1,0 +1,14 @@
+{
+  "icons": [
+    {
+      "src": "img/favicon/kiru-favicon-192.webp",
+      "type": "image/webp",
+      "sizes": "192*203"
+    },
+    {
+      "src": "img/favicon/kiru-favicon-512.webp",
+      "type": "image/webp",
+      "sizes": "512*542"
+    }
+  ]
+}

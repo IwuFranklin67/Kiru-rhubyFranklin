@@ -1,0 +1,291 @@
+/* ***************************** */
+/* BELOW 544px (Phones) */
+/* ***************************** */
+
+@media (max-width: 34em) {
+  html {
+    font-size: 45%;
+  }
+
+  .header {
+    padding: 2.4rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .logo {
+    height: 4.8rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: rgba(252, 252, 252, 0.9);
+    -webkit-bckdrop-filter: blur(0.5rem);
+    backdrop-filter: blur(1rem);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease-in-out;
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .margin-right--bg {
+    margin-right: 0;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3.2rem;
+    color: #04111d;
+  }
+
+  .main-nav-link.nav-contact:link,
+  .main-nav-link.nav-contact:visited {
+    padding: 2.4rem 16rem;
+    margin-top: 30%;
+    background-color: #00a4ff;
+    color: #fcfcfc;
+  }
+
+  .main-nav-link.nav-contact:link,
+  .main-nav-link.nav-contact:visited {
+    background-color: #0094e6;
+  }
+
+  .feature-item {
+    display: block;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    width: 100%;
+    font-size: 2.4rem;
+  }
+
+  .margin-bottom--sm {
+    margin-bottom: 1.6rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .heading-secondary {
+    font-size: 4rem;
+  }
+
+  .feature-item {
+    text-align: center;
+  }
+
+  .feature-icon-box img {
+    margin-bottom: 3.2rem;
+  }
+
+  .section-what-01 {
+    padding: 12rem 0;
+  }
+
+  .what-text {
+    font-size: 2.6rem;
+    margin-bottom: 0;
+  }
+
+  .what-img-box img {
+    width: 100%;
+  }
+
+  .subheading {
+    font-size: 2.4rem;
+  }
+
+  .what-description {
+    font-size: 2.4rem;
+  }
+
+  .what-text-box .btn:link,
+  .what-text-box .btn:visited {
+    width: auto;
+  }
+
+  .lower-what-heading {
+    font-size: 3rem;
+  }
+
+  .lower-what-description {
+    font-size: 2.2rem;
+  }
+
+  .lower-what-link:link,
+  .lower-what-link:visited {
+    font-size: 2.4rem;
+  }
+
+  .what-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .testimonials-description {
+    font-size: 2.2rem;
+  }
+
+  .testimonial:not(:first-child) {
+    display: none;
+  }
+
+  .testimonials.grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-link-box {
+    font-size: 2rem;
+  }
+
+  .testimonial-text {
+    font-size: 2rem;
+  }
+
+  .testimonial-feature-name {
+    font-size: 2.4rem;
+  }
+
+  .testimonial-feature-text {
+    gap: 1.2rem;
+  }
+
+  .testimonial-feature-title {
+    font-size: 2rem;
+  }
+
+  .heading-featured-in-text {
+    font-size: 2.6rem;
+  }
+
+  /* .logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  } */
+
+  .logos-item img {
+    height: 3.2rem;
+  }
+
+  .section-box {
+    width: 100%;
+  }
+
+  .section-box-gallery {
+    background: none;
+    padding: 0;
+  }
+
+  .section-box-gallery .container {
+    padding: 0;
+  }
+
+  .section-box-gallery .heading-secondary {
+    font-size: 4.6rem;
+  }
+
+  .section-box-text {
+    font-size: 2.4rem;
+  }
+
+  .section-box .btn--full:link,
+  .section-box .btn--full:visited {
+    width: auto;
+  }
+
+  .section-box {
+    padding: 8rem 3.2rem 12.8rem;
+  }
+
+  .footer .grid {
+    display: block;
+  }
+
+  .footer-logo .logo {
+    height: 4.8rem;
+  }
+
+  .footer {
+    padding: 8rem 0 6.4rem;
+  }
+
+  .logo-text {
+    font-size: 2.2rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .social-links {
+    gap: 2.4rem;
+    margin-bottom: 6.4rem;
+  }
+
+  .footer-nav {
+    display: none;
+  }
+
+  .footer-heading {
+    font-size: 2rem;
+    margin-bottom: 6.4rem;
+  }
+
+  .contacts {
+    font-size: 3.2rem;
+  }
+
+  .contacts-box {
+    gap: 1.8rem;
+  }
+
+  .copyright {
+    font-size: 1.8rem;
+  }
+
+  .copyright-link:link,
+  .copyright-link:visited {
+    color: #fcfcfc;
+    font-size: 1.8rem;
+  }
+}
